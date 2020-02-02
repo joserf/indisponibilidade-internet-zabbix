@@ -31,7 +31,19 @@ Enviando notificações de indisponibilidade de internet com Zabbix e Telegram.
 
     $ sudo cp zabbix-telegram.sh /home/joserf/docker/containers/zabbix/alertscripts/
 
-8- Configurando o Zabbix
+8- Instalando pacotes necessarios no container.
+
+    $ sudo docker exec -t -i Zabbix-Server /bin/bash
+    apk upgrade --no-cache build-base python3 python3-dev nmap && apk add --update --no-cache tg curl py-pip speedtest-cli && pip install pyTelegramBotAPI && pip install --upgrade pip && rm -rf /usr/share/man /tmp/* /var/cache/apk/*
+    cd /usr/lib/zabbix/alertscripts/
+    chmod +x *
+    chown zabbix:zabbix *
+
+9- 
+
+    #
+
+10- Configurando o Zabbix
 
     Zabbix:
 

@@ -84,6 +84,8 @@ Enviando notificações de indisponibilidade de internet com Zabbix e Telegram.
 
     Duração padrão do passo da operação: 1h
 
+<img src=images/04.png/>
+
     Operações de recuperação:
 
     Assunto padrão: Internet restabelecida após: {EVENT.AGE}
@@ -95,7 +97,5 @@ Enviando notificações de indisponibilidade de internet com Zabbix e Telegram.
     Tipo da operação: Enviar mensagem
     Enviar para usuários: Admin (Zabbix Administrator)
     Enviar apenas para: Telegram Gráficos
-
-<img src=images/04.png/>
 
 <img src=images/05.png/>

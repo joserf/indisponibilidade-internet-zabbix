@@ -46,6 +46,8 @@ Enviando notificações de indisponibilidade de internet com Zabbix e Telegram.
     {ALERT.SUBJECT}
     {ALERT.MESSAGE}
 
+<img src=images/01.png/>
+
     Administração
     Usuários
     Admin
@@ -56,6 +58,8 @@ Enviando notificações de indisponibilidade de internet com Zabbix e Telegram.
     Tipo: Telegram Gráficos
     Enviar para: ID do seu grupo
     Ativo quando: 1-7,00:00-24:00
+
+<img src=images/02.png/>
 
     Configuração
     Ações
@@ -74,6 +78,8 @@ Enviando notificações de indisponibilidade de internet com Zabbix e Telegram.
     Grupo: Internet | Host: Internet
     [x] Unavailable by ICMP ping 
 
+<img src=images/03.png/>
+
     Operações:
 
     Duração padrão do passo da operação: 1h
@@ -89,3 +95,7 @@ Enviando notificações de indisponibilidade de internet com Zabbix e Telegram.
     Tipo da operação: Enviar mensagem
     Enviar para usuários: Admin (Zabbix Administrator)
     Enviar apenas para: Telegram Gráficos
+
+<img src=images/04.png/>
+
+<img src=images/05.png/>
